@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Application launched successfully]]>
+    </line>
+    <line>
+      <![CDATA[QA AUTOMATION is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Practice Automation is displayed]]>
+    </line>
+    <line>
+      <![CDATA[The Application is navigated successfully]]>
+    </line>
+    <line>
+      <![CDATA[Register For Demo is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Title is matched]]>
+    </line>
+    <line>
+      <![CDATA[The matched title is : Register For Demo]]>
+    </line>
+    <line>
+      <![CDATA[First Name is enabled]]>
+    </line>
+    <line>
+      <![CDATA[First Name is Hammad]]>
+    </line>
+    <line>
+      <![CDATA[Last Name is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Last Name is Siddiqui]]>
+    </line>
+    <line>
+      <![CDATA[Male Radio Button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Male Radio Button is selected]]>
+    </line>
+    <line>
+      <![CDATA[Address line1 is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Street : Chowk]]>
+    </line>
+    <line>
+      <![CDATA[Address line2 is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Details : Campwell road]]>
+    </line>
+    <line>
+      <![CDATA[Address line3 is enabled]]>
+    </line>
+    <line>
+      <![CDATA[City : Lucknow]]>
+    </line>
+    <line>
+      <![CDATA[Address line4 is enabled]]>
+    </line>
+    <line>
+      <![CDATA[State : Uttar Pradesh]]>
+    </line>
+    <line>
+      <![CDATA[Address line5 is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Pin/Postal code : 226003]]>
+    </line>
+    <line>
+      <![CDATA[Country drop down is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Country : India]]>
+    </line>
+    <line>
+      <![CDATA[Email is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Email : mohdhammad74@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Date is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Date : 08/01/2022]]>
+    </line>
+    <line>
+      <![CDATA[Convenient Time HH is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Convenient Time MM is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Number is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Number : 7007112730]]>
+    </line>
+    <line>
+      <![CDATA[UFT is enabled]]>
+    </line>
+    <line>
+      <![CDATA[UFT is selected]]>
+    </line>
+    <line>
+      <![CDATA[TestNG is enabled]]>
+    </line>
+    <line>
+      <![CDATA[TestNG is selected]]>
+    </line>
+    <line>
+      <![CDATA[Enter your query is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Your query : query is entered.]]>
+    </line>
+    <line>
+      <![CDATA[Example number is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Please enter two digits as displayed in Example is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Example : 99]]>
+    </line>
+    <line>
+      <![CDATA[The submit button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Submit button is clicked]]>
+    </line>
+    <line>
+      <![CDATA[The user is successfully registered]]>
+    </line>
+    <line>
+      <![CDATA[Registration Form is Successfully Submitted.The Transaction ID : NXTGEN1937465]]>
+    </line>
+    <line>
+      <![CDATA[The successful registered message is validated.]]>
+    </line>
+    <line>
+      <![CDATA[Application is closed!!!!]]>
+    </line>
+    <line>
+      <![CDATA[The Application is successfuly closed .]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-07T20:07:10 IST" name="RegressionSuite" finished-at="2022-09-07T20:07:24 IST" duration-ms="13948">
+    <groups>
+    </groups>
+    <test started-at="2022-09-07T20:07:10 IST" name="Test" finished-at="2022-09-07T20:07:24 IST" duration-ms="13948">
+      <class name="com.testng.traning.TestNgDemoAssignment">
+        <test-method signature="launchingTheApplication()[pri:1, instance:com.testng.traning.TestNgDemoAssignment@32502377]" started-at="2022-09-07T20:07:10 IST" name="launchingTheApplication" finished-at="2022-09-07T20:07:17 IST" duration-ms="6481" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application launched successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchingTheApplication -->
+        <test-method signature="navigateToRegistrationForm()[pri:2, instance:com.testng.traning.TestNgDemoAssignment@32502377]" started-at="2022-09-07T20:07:17 IST" name="navigateToRegistrationForm" finished-at="2022-09-07T20:07:19 IST" duration-ms="2145" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[QA AUTOMATION is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Practice Automation is displayed]]>
+            </line>
+            <line>
+              <![CDATA[The Application is navigated successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToRegistrationForm -->
+        <test-method signature="registerUser()[pri:3, instance:com.testng.traning.TestNgDemoAssignment@32502377]" started-at="2022-09-07T20:07:19 IST" name="registerUser" finished-at="2022-09-07T20:07:24 IST" duration-ms="5009" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Register For Demo is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Title is matched]]>
+            </line>
+            <line>
+              <![CDATA[The matched title is : Register For Demo]]>
+            </line>
+            <line>
+              <![CDATA[First Name is enabled]]>
+            </line>
+            <line>
+              <![CDATA[First Name is Hammad]]>
+            </line>
+            <line>
+              <![CDATA[Last Name is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Last Name is Siddiqui]]>
+            </line>
+            <line>
+              <![CDATA[Male Radio Button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Male Radio Button is selected]]>
+            </line>
+            <line>
+              <![CDATA[Address line1 is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Street : Chowk]]>
+            </line>
+            <line>
+              <![CDATA[Address line2 is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Details : Campwell road]]>
+            </line>
+            <line>
+              <![CDATA[Address line3 is enabled]]>
+            </line>
+            <line>
+              <![CDATA[City : Lucknow]]>
+            </line>
+            <line>
+              <![CDATA[Address line4 is enabled]]>
+            </line>
+            <line>
+              <![CDATA[State : Uttar Pradesh]]>
+            </line>
+            <line>
+              <![CDATA[Address line5 is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Pin/Postal code : 226003]]>
+            </line>
+            <line>
+              <![CDATA[Country drop down is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Country : India]]>
+            </line>
+            <line>
+              <![CDATA[Email is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Email : mohdhammad74@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Date is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Date : 08/01/2022]]>
+            </line>
+            <line>
+              <![CDATA[Convenient Time HH is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Convenient Time MM is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Mobile Number is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Mobile Number : 7007112730]]>
+            </line>
+            <line>
+              <![CDATA[UFT is enabled]]>
+            </line>
+            <line>
+              <![CDATA[UFT is selected]]>
+            </line>
+            <line>
+              <![CDATA[TestNG is enabled]]>
+            </line>
+            <line>
+              <![CDATA[TestNG is selected]]>
+            </line>
+            <line>
+              <![CDATA[Enter your query is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Your query : query is entered.]]>
+            </line>
+            <line>
+              <![CDATA[Example number is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Please enter two digits as displayed in Example is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Example : 99]]>
+            </line>
+            <line>
+              <![CDATA[The submit button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Submit button is clicked]]>
+            </line>
+            <line>
+              <![CDATA[The user is successfully registered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="validateSuccessfulMessage()[pri:4, instance:com.testng.traning.TestNgDemoAssignment@32502377]" started-at="2022-09-07T20:07:24 IST" name="validateSuccessfulMessage" finished-at="2022-09-07T20:07:24 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Registration Form is Successfully Submitted.The Transaction ID : NXTGEN1937465]]>
+            </line>
+            <line>
+              <![CDATA[The successful registered message is validated.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulMessage -->
+        <test-method signature="closingTheApplication()[pri:5, instance:com.testng.traning.TestNgDemoAssignment@32502377]" started-at="2022-09-07T20:07:24 IST" name="closingTheApplication" finished-at="2022-09-07T20:07:24 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Application is closed!!!!]]>
+            </line>
+            <line>
+              <![CDATA[The Application is successfuly closed .]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closingTheApplication -->
+      </class> <!-- com.testng.traning.TestNgDemoAssignment -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

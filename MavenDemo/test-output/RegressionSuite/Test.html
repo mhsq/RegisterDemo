@@ -1,0 +1,184 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Sep 07 20:07:10 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13948 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testng.traning.TestNgDemoAssignment.closingTheApplication()'><b>closingTheApplication</b><br>Test class: com.testng.traning.TestNgDemoAssignment<br/>
+<a href="#Output-1047477166" onClick='toggleBox("Output-1047477166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1047477166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1047477166">
+Application is closed!!!!<br/>
+The Application is successfuly closed .<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testng.traning.TestNgDemoAssignment@32502377</td></tr>
+<tr>
+<td title='com.testng.traning.TestNgDemoAssignment.launchingTheApplication()'><b>launchingTheApplication</b><br>Test class: com.testng.traning.TestNgDemoAssignment<br/>
+<a href="#Output-364704856" onClick='toggleBox("Output-364704856", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-364704856" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-364704856">
+Application launched successfully<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.testng.traning.TestNgDemoAssignment@32502377</td></tr>
+<tr>
+<td title='com.testng.traning.TestNgDemoAssignment.navigateToRegistrationForm()'><b>navigateToRegistrationForm</b><br>Test class: com.testng.traning.TestNgDemoAssignment<br/>
+<a href="#Output-417875774" onClick='toggleBox("Output-417875774", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-417875774" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-417875774">
+QA AUTOMATION is displayed<br/>
+Practice Automation is displayed<br/>
+The Application is navigated successfully<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.testng.traning.TestNgDemoAssignment@32502377</td></tr>
+<tr>
+<td title='com.testng.traning.TestNgDemoAssignment.registerUser()'><b>registerUser</b><br>Test class: com.testng.traning.TestNgDemoAssignment<br/>
+<a href="#Output-1104654975" onClick='toggleBox("Output-1104654975", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1104654975" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1104654975">
+Register For Demo is displayed<br/>
+Title is matched<br/>
+The matched title is : Register For Demo<br/>
+First Name is enabled<br/>
+First Name is Hammad<br/>
+Last Name is enabled<br/>
+Last Name is Siddiqui<br/>
+Male Radio Button is enabled<br/>
+Male Radio Button is selected<br/>
+Address line1 is enabled<br/>
+Street : Chowk<br/>
+Address line2 is enabled<br/>
+Details : Campwell road<br/>
+Address line3 is enabled<br/>
+City : Lucknow<br/>
+Address line4 is enabled<br/>
+State : Uttar Pradesh<br/>
+Address line5 is enabled<br/>
+Pin/Postal code : 226003<br/>
+Country drop down is enabled<br/>
+Country : India<br/>
+Email is enabled<br/>
+Email : mohdhammad74@gmail.com<br/>
+Date is enabled<br/>
+Date : 08/01/2022<br/>
+Convenient Time HH is enabled<br/>
+Convenient Time MM is enabled<br/>
+Mobile Number is enabled<br/>
+Mobile Number : 7007112730<br/>
+UFT is enabled<br/>
+UFT is selected<br/>
+TestNG is enabled<br/>
+TestNG is selected<br/>
+Enter your query is enabled<br/>
+Your query : query is entered.<br/>
+Example number is displayed<br/>
+Please enter two digits as displayed in Example is enabled<br/>
+Example : 99<br/>
+The submit button is enabled<br/>
+Submit button is clicked<br/>
+The user is successfully registered<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.testng.traning.TestNgDemoAssignment@32502377</td></tr>
+<tr>
+<td title='com.testng.traning.TestNgDemoAssignment.validateSuccessfulMessage()'><b>validateSuccessfulMessage</b><br>Test class: com.testng.traning.TestNgDemoAssignment<br/>
+<a href="#Output-2056566350" onClick='toggleBox("Output-2056566350", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2056566350" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2056566350">
+Registration Form is Successfully Submitted.The Transaction ID : NXTGEN1937465<br/>
+The successful registered message is validated.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testng.traning.TestNgDemoAssignment@32502377</td></tr>
+</table><p>
+</body>
+</html>

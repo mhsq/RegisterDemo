@@ -1,0 +1,5 @@
+com\testng\beforeandafter\BeforeAndAfterClass.class
+com\testng\beforeandafter\BeforeAndAfterMethod.class
+sample\NewTest1.class
+com\testng\traning\TestNgDemoAssignment.class
+advanceautomation\MavenDemo\AppTest.class
