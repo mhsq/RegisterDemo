@@ -25,7 +25,7 @@ public class TestNgDemoAssignment {
 	String currentDateValue = "08/01/2022";
 	String hourValue = "20";
 	String minValue = "50";
-	String mobileNumberValue = "7007112730";
+	String mobileNumberValue = "8874789998";
 	String enterQueryValue = "query is entered.";
 	String regPageHeadTitleValue = "Register For Demo";
 	String actualSuccessfullTextMsgValue = "Registration Form is Successfully Submitted.";
